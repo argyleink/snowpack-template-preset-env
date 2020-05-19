@@ -1,6 +1,6 @@
 {
   "name": "snowpack-template-preset-env",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Adam Argyle",
   "description": "Snowpack CSA Template for babel and postcss at latest with browserlist powered preset-env",
   "repository": "github:argyleink/snowpack-template-preset-env",
