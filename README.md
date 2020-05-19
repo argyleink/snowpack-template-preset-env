@@ -1,6 +1,11 @@
 # Snowpack preset-env
-
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
+### Quick Start
+`npx create-snowpack-app snowpack-preset-env --template snowpack-template-preset-env`
+
+Bootstraps this template into a new folder `called snowpack-preset-env/` ready to go.
+
 
 ## Available Scripts
 
