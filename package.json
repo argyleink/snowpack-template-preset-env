@@ -1,8 +1,11 @@
 {
-  "name": "snowstack",
+  "name": "snowpack-template-preset-env",
   "version": "0.0.2",
   "author": "Adam Argyle",
-  "description": "Snowpack starter for latest JS and CSS with preset-env",
+  "description": "Snowpack CSA Template for babel and postcss at latest with browserlist powered preset-env",
+  "keywords": [
+    "csa-template"
+  ],
   "license": "MIT",
   "browserslist": [
     "defaults"
