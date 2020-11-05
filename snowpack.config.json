@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build:js": "@snowpack/plugin-babel",
     "build:css": "postcss",
     "mount:public": "mount public --to /",
     "mount:src": "mount src",

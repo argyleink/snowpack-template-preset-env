@@ -10,14 +10,23 @@
   }
 }
 
-body {
-  background: var(--surface);
-  color: var(--text);
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
 
-  min-height: 100vh;
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+
   font-family: system-ui;
   display: grid;
   place-content: center;
+  
+  background: var(--surface);
+  color: var(--text);
 }
 
 ::selection {
