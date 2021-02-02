@@ -1,6 +1,6 @@
 {
   "name": "snowpack-template-preset-env",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "author": "Adam Argyle",
   "description": "Snowpack CSA Template for babel and postcss at latest with browserlist powered preset-env",
   "repository": "github:argyleink/snowpack-template-preset-env",
@@ -13,21 +13,22 @@
     "defaults"
   ],
   "scripts": {
-    "prepare": "snowpack",
     "start": "snowpack dev",
     "build": "snowpack build"
   },
-  "webDependencies": {},
   "devDependencies": {
-    "@snowpack/plugin-babel": "^2.1.4",
-    "parcel-bundler": "^1.12.4",
-    "postcss": "8.1.6",
-    "postcss-cli": "8.2.0",
+    "@babel/preset-env": "^7.12.11",
+    "@snowpack/plugin-babel": "^2.1.6",
+    "@snowpack/plugin-postcss": "^1.1.0",
+    "postcss": "8.2.4",
+    "postcss-cli": "8.3.1",
     "postcss-easings": "^3.0.1",
-    "postcss-import": "^13.0.0",
-    "postcss-import-url": "^5.1.0",
+    "postcss-import": "^14.0.0",
+    "postcss-import-url": "^6.0.0",
     "postcss-preset-env": "6.7.0",
-    "snowpack": "^2.16.1"
+    "snowpack": "^3.0.11"
   },
-  "dependencies": {}
+  "dependencies": {
+    "canvas-confetti": "^1.2.0"
+  }
 }

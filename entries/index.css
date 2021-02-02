@@ -24,10 +24,17 @@ body {
   font-family: system-ui;
   display: grid;
   place-content: center;
+  gap: 2ch;
   
   background: var(--surface);
   color: var(--text);
 }
+
+h1, h3 {
+  margin: 0;
+}
+
+h3 { font-weight: lighter; }
 
 ::selection {
   background-color: var(--brand);
